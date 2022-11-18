@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+
+<head>
+   <link rel="shortcut icon" href="../img/Humo.ico" type="image/x-icon">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   <title>IT studio</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="header__menu menu">
+         <div class="logos">
+            <div class="header__logos logos row">
+               <div class="menu__logo">
+                  <a href="../index.html"><img src="../img/first-screen/humo.jpg" alt=""></a>
+               </div>
+               <div class="menu__logo">
+                  <a href="https://yangihayottumani.uz/"><img src="../img/first-screen/logo-oq.png" alt=""></a>
+               </div>
+               <div class="menu__logo">
+                  <a href="https://yoshlar.gov.uz/uz/"><img src="../img/first-screen/yoshlar.jpg" alt=""></a>
+               </div>
+            </div>
+         </div>
+         <div class="menu__container centered">
+            <div class="menu__icon">
+               <div class="icon-container" onclick="myFunction(this)">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+               </div>
+            </div>
+            <ul class="menu__list">
+               <li><a class="menu__link white" href="../index.html">Bosh sahifa </a></li>
+               <li><a class="menu__link white" href="../Contact/contact.html">Kontakt</a></li>
+               <li>
+                  <a class="menu__link white" href="../catalog/catalog.html">Kurslar</a>
+                  <span class="menu__arrow"></span>
+                  <ul class="menu__sub-list">
+                     <li>
+                        <a href="../catalog/buxgalteriya.html" class="menu__sub-link">Buxgalteriya</a>
+                     </li>
+                     <li>
+                        <a href="../catalog/front-end.html" class="menu__sub-link">Front end</a>
+                     </li>
+                     <li>
+                        <a href="../catalog/ingiliz-tili.html" class="menu__sub-link">Ingiliz tili</a>
+                     </li>
+                     <li>
+                        <a href="../catalog/grafik-dizayn.html" class="menu__sub-link">Grafik dizayn</a>
+                     </li><li>
+                        <a href="../catalog/java.html" class="menu__sub-link">Beckend</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+
+      </div>
+      <div class="google-map" data-aos="fade-up" data-aos-delay="900">
+         <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.619905218091!2d69.20343191532713!3d41.208259579281055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae61588002205b%3A0xb7db768bf2733e76!2siHumo%20school!5e0!3m2!1sru!2s!4v1665410825278!5m2!1sru!2s"
+            width="90%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+   </header>
+   <div class="about-us centered">
+      <div class="about-us__text-block anim-items on-vision">
+         <h2 class="about-us__title title-700-36 dark"> Kurslarimiz sizda qiziqish uyg'otgan bo'lsa, biz bilan
+            bog'laning.</h2>
+         <p class="about-us__text text-400-16 grey">
+            Murojaat uchun:
+         </p>
+         <ul class="contacts-info">
+            <li class="info-links text-500-16">
+               Telefon: <a class="text-400-16 opacity" href="tel:+998339197707" class="grey">+998
+                  339197707</a>
+            </li>
+
+            <li class="info-links text-500-16 dark">
+               Manzil: <a class="text-400-16 opacity white-space" href="https://yandex.uz/maps/-/CCUZaXAxCB">Toshkent,
+                  Qo'rg'ontepa ko'chasi 30-uy</a>
+            </li>
+
+            <li class="info-links text-500-16">
+               Email: <a class="text-400-16 opacity" href="mailto:ihumoscholl@gmail.com"
+                  class="grey">ihumoscholl@gmail.com</a>
+            </li>
+         </ul>
+      </div>
+      <div class="about-us__picture anim-items on-vision">
+         <form id="myForm" class="humo-form" name="feedback" method="POST" action="/feedback.php">
+            <div class="text-500-16 dark name">
+               <p>Ism</p> <input id="name" type="text" name="name" required="required">
+            </div>
+
+            <div class="text-500-16 dark tel">
+               <p>Telefon</p> <input id="phone" type="number" name="tel" required="required">
+            </div>
+
+            <div class="text-500-16 dark subject">
+               <p>Habar mavzusi</p> <input id="choise" type="text" name="subject" required="required">
+            </div>
+
+            <div class="text-500-16 dark message">
+               <p>Habarni kiriting</p> <textarea id="sms" name="message" required="required"></textarea>
+            </div>
+            <input id="submit" class="btn blue-btn title-600-18 white" type="submit" name="submit_btn"
+               value="Jo'natish">
+         </form>
+      </div>
+   </div>
+   <footer class="footer">
+      <div class="footer__wrapper wrapper centered">
+         <div class="footer__container">
+            <div class="footer__row row">
+               <div class="footer-column column-1-4 anim-items">
+                  <h3 class="footer-column__title title-600-18">
+                     Kontaklar
+                  </h3>
+                  <ul class="footer-column__list ">
+                     <li class="footer-column__link text-400-14"><a href="mailto:ihumoscholl@gmail.com"
+                           class="grey">ihumoscholl@gmail.com</a> </li>
+                     <li class="footer-column__link text-400-14"><a href="tel:+998339197707" class="grey">+998
+                           339197707</a></li>
+                     <li class="footer-column__link text-400-14"><a href="https://yandex.uz/maps/-/CCUZaXAxCB"
+                           class="grey">Toshkent, Qo'rg'ontepa ko'chasi 129 A-uy</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="footer-column column-1-4 anim-items">
+                  <h3 class="footer-column__title title-600-18">
+                     Havolalar
+                  </h3>
+                  <ul class="footer-column__list ">
+                     <li class="footer-column__link text-400-14"><a class="grey" href="../index.html">Bosh sahifa
+                        </a></li>
+                     <li class="footer-column__link text-400-14"><a class="grey"
+                           href="../catalog/catalog.html">Kurslar</a></li>
+                     <li class="footer-column__link text-400-14"><a class="grey"
+                           href="../Contact/contact.html">Kontakt</a></li>
+                  </ul>
+               </div>
+
+               <div class="footer-column column-1-4 anim-items">
+                  <h3 class="footer-column__title title-600-18">
+                     Ijtimoiy tarmoqlar
+                  </h3>
+                  <ul class="footer-column__list ">
+                     <li class="footer-column__link text-400-14"><a href="https://t.me/fenix_english_group"
+                           class="grey">Telegram</a></li>
+                     <li class="footer-column__link text-400-14"><a href="https://www.instagram.com/ihumo.school/"
+                           class="grey">Instagram</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+   </script>
+   <script type="text/javascript">
+      (function () {
+         emailjs.init("SffZKhIRtj4XfODOF");
+      })();
+   </script>
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>
