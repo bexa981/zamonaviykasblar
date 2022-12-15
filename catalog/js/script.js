@@ -226,8 +226,11 @@ function tasdiqlash() {
    } else if (login === 'java' && parol == 1111) {
       window.location.href = 'https://classroom.google.com/c/NTY5MTEyOTUwNzc4?cjc=e7mgkro';
    }
+   else if(login=== 'excel' && parol == 7777){
+       window.location.href='https://classroom.google.com/u/1/c/NTc5MjkxOTYxMjgz'
+   }
    else {
-      alert('wrong password')
+      alert('Xato parol kiritingiz')
    }
 
 }
