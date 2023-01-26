@@ -209,31 +209,50 @@ document.addEventListener('keydown', function (e) {
 
 })();
 
-function tasdiqlash() {
-   let login = document.getElementById('login').value;
-   let parol = document.getElementById('parol').value;
+ function bugalteriya(){
+   window.location.href='https://classroom.google.com/c/NTI4NzQwNTY1NzI0?cjc=b7nmbvq'
+ }
+ function excel(){
+   window.location.href='https://classroom.google.com/u/1/c/NTc5MjkxOTYxMjgz'
+ }
+ function frontend(){
+   window.location.href='https://classroom.google.com/c/NTU1MTIxMzc0MDMx?cjc=7gnxcox'
+ }
+ function grafikDizayn(){
+   window.location.href='https://classroom.google.com/c/NTY5MTA3NTAxMjIy?cjc=fzwaeoq'
+ }
+ function inglizTili(){
+   window.location.href='https://classroom.google.com/c/NTU2MTEzMzE2ODM0?cjc=kvvzw5t'
+ }
+ function java(){
+   window.location.href='https://classroom.google.com/c/NTY5MTEyOTUwNzc4?cjc=e7mgkro'
+ }
 
-   if (login === 'frontend' && parol == 7777) {
-      window.location.href = 'https://classroom.google.com/c/NTU1MTIxMzc0MDMx?cjc=7gnxcox';
-   } else if (login === 'buxgalteriya' && parol == 7777) {
-      window.location.href = 'https://classroom.google.com/c/NTI4NzQwNTY1NzI0?cjc=b7nmbvq';
-   } else if (login === 'english' && parol == 7777) {
-      window.location.href = 'https://classroom.google.com/c/NTU2MTEzMzE2ODM0?cjc=kvvzw5t';
-   } else if (login === 'frontend' && parol == 1111) {
-      window.location.href = 'https://classroom.google.com/c/NTYxMzk0MjE5NDE1?cjc=mfnragb';
-   } else if (login === 'dizayn' && parol == 7777) {
-      window.location.href = 'https://classroom.google.com/c/NTY5MTA3NTAxMjIy?cjc=fzwaeoq';
-   } else if (login === 'java' && parol == 1111) {
-      window.location.href = 'https://classroom.google.com/c/NTY5MTEyOTUwNzc4?cjc=e7mgkro';
-   }
-   else if(login=== 'excel' && parol == 7777){
-       window.location.href='https://classroom.google.com/u/1/c/NTc5MjkxOTYxMjgz'
-   }
-   else {
-      alert('Xato parol kiritingiz')
-   }
+// function tasdiqlash() {
+//    let login = document.getElementById('login').value;
+//    let parol = document.getElementById('parol').value;
 
-}
+//    if (login === 'frontend' && parol == 7777) {
+//       window.location.href = 'https://classroom.google.com/c/NTU1MTIxMzc0MDMx?cjc=7gnxcox';
+//    } else if (login === 'buxgalteriya' && parol == 7777) {
+//       window.location.href = 'https://classroom.google.com/c/NTI4NzQwNTY1NzI0?cjc=b7nmbvq';
+//    } else if (login === 'english' && parol == 7777) {
+//       window.location.href = 'https://classroom.google.com/c/NTU2MTEzMzE2ODM0?cjc=kvvzw5t';
+//    } else if (login === 'frontend' && parol == 1111) {
+//       window.location.href = 'https://classroom.google.com/c/NTYxMzk0MjE5NDE1?cjc=mfnragb';
+//    } else if (login === 'dizayn' && parol == 7777) {
+//       window.location.href = 'https://classroom.google.com/c/NTY5MTA3NTAxMjIy?cjc=fzwaeoq';
+//    } else if (login === 'java' && parol == 1111) {
+//       window.location.href = 'https://classroom.google.com/c/NTY5MTEyOTUwNzc4?cjc=e7mgkro';
+//    }
+//    else if(login=== 'excel' && parol == 7777){
+//        window.location.href='https://classroom.google.com/u/1/c/NTc5MjkxOTYxMjgz'
+//    }
+//    else {
+//       alert('Xato parol kiritingiz')
+//    }
+
+// }
 document.querySelector("form").addEventListener("submit", (event) => {
    event.preventDefault();
 });
